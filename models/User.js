@@ -3,7 +3,12 @@ const sequelize = require('../config/connection');
 const bcrypt = require('bcrypt');
 const { noRawAttributes } = require('sequelize/lib/utils/deprecations');
 //user model
-class User extends Model {}
+class User extends Model {
+    //set up method to runon instance data (per user) to check password
+    checkPassword(loginPw){
+        return bcrypt.compareSync(loginPw, this.password);
+    }
+}
 
 //define table columns and configuration
 User.init(
