@@ -6,7 +6,8 @@
 <br>SO THAT I can publish articles, blog posts, and my thoughts and opinions</br>
 
 ## Installation
-
+1. npm init
+2. npm install express sequelize mysql2
 
 ## Built With
 *Javascript
@@ -18,6 +19,7 @@
 *express-session
 *dotenv
 *bcrypt
+*Heroku
 
 ## Website link
 

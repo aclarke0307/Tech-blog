@@ -1,0 +1,25 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "MVC Tech Blog",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aclarke0307/Tech-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aclarke0307/Tech-blog/issues"
+  },
+  "homepage": "https://github.com/aclarke0307/Tech-blog#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
